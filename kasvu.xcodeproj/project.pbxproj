@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E269741F1F209E1B00510693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E269741E1F209E1B00510693 /* AppDelegate.swift */; };
+		E26974211F209E1B00510693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26974201F209E1B00510693 /* ViewController.swift */; };
+		E26974241F209E1B00510693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26974221F209E1B00510693 /* Main.storyboard */; };
+		E26974271F209E1B00510693 /* kasvu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E26974251F209E1B00510693 /* kasvu.xcdatamodeld */; };
+		E26974291F209E1B00510693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26974281F209E1B00510693 /* Assets.xcassets */; };
+		E269742C1F209E1B00510693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E269742A1F209E1B00510693 /* LaunchScreen.storyboard */; };
+		E26974371F209E1B00510693 /* kasvuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26974361F209E1B00510693 /* kasvuTests.swift */; };
+		E26974421F209E1B00510693 /* kasvuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26974411F209E1B00510693 /* kasvuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26974331F209E1B00510693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26974131F209E1B00510693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E269741A1F209E1B00510693;
+			remoteInfo = kasvu;
+		};
+		E269743E1F209E1B00510693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26974131F209E1B00510693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E269741A1F209E1B00510693;
+			remoteInfo = kasvu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E269741B1F209E1B00510693 /* kasvu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kasvu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E269741E1F209E1B00510693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E26974201F209E1B00510693 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E26974231F209E1B00510693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E26974261F209E1B00510693 /* kasvu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kasvu.xcdatamodel; sourceTree = "<group>"; };
+		E26974281F209E1B00510693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E269742B1F209E1B00510693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E269742D1F209E1B00510693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26974321F209E1B00510693 /* kasvuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kasvuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26974361F209E1B00510693 /* kasvuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kasvuTests.swift; sourceTree = "<group>"; };
+		E26974381F209E1B00510693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E269743D1F209E1B00510693 /* kasvuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kasvuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26974411F209E1B00510693 /* kasvuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kasvuUITests.swift; sourceTree = "<group>"; };
+		E26974431F209E1B00510693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26974181F209E1B00510693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E269742F1F209E1B00510693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E269743A1F209E1B00510693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E26974121F209E1B00510693 = {
+			isa = PBXGroup;
+			children = (
+				E269741D1F209E1B00510693 /* kasvu */,
+				E26974351F209E1B00510693 /* kasvuTests */,
+				E26974401F209E1B00510693 /* kasvuUITests */,
+				E269741C1F209E1B00510693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E269741C1F209E1B00510693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E269741B1F209E1B00510693 /* kasvu.app */,
+				E26974321F209E1B00510693 /* kasvuTests.xctest */,
+				E269743D1F209E1B00510693 /* kasvuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E269741D1F209E1B00510693 /* kasvu */ = {
+			isa = PBXGroup;
+			children = (
+				E269741E1F209E1B00510693 /* AppDelegate.swift */,
+				E26974201F209E1B00510693 /* ViewController.swift */,
+				E26974221F209E1B00510693 /* Main.storyboard */,
+				E26974281F209E1B00510693 /* Assets.xcassets */,
+				E269742A1F209E1B00510693 /* LaunchScreen.storyboard */,
+				E269742D1F209E1B00510693 /* Info.plist */,
+				E26974251F209E1B00510693 /* kasvu.xcdatamodeld */,
+			);
+			path = kasvu;
+			sourceTree = "<group>";
+		};
+		E26974351F209E1B00510693 /* kasvuTests */ = {
+			isa = PBXGroup;
+			children = (
+				E26974361F209E1B00510693 /* kasvuTests.swift */,
+				E26974381F209E1B00510693 /* Info.plist */,
+			);
+			path = kasvuTests;
+			sourceTree = "<group>";
+		};
+		E26974401F209E1B00510693 /* kasvuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E26974411F209E1B00510693 /* kasvuUITests.swift */,
+				E26974431F209E1B00510693 /* Info.plist */,
+			);
+			path = kasvuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E269741A1F209E1B00510693 /* kasvu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26974461F209E1B00510693 /* Build configuration list for PBXNativeTarget "kasvu" */;
+			buildPhases = (
+				E26974171F209E1B00510693 /* Sources */,
+				E26974181F209E1B00510693 /* Frameworks */,
+				E26974191F209E1B00510693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kasvu;
+			productName = kasvu;
+			productReference = E269741B1F209E1B00510693 /* kasvu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26974311F209E1B00510693 /* kasvuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26974491F209E1B00510693 /* Build configuration list for PBXNativeTarget "kasvuTests" */;
+			buildPhases = (
+				E269742E1F209E1B00510693 /* Sources */,
+				E269742F1F209E1B00510693 /* Frameworks */,
+				E26974301F209E1B00510693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26974341F209E1B00510693 /* PBXTargetDependency */,
+			);
+			name = kasvuTests;
+			productName = kasvuTests;
+			productReference = E26974321F209E1B00510693 /* kasvuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E269743C1F209E1B00510693 /* kasvuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E269744C1F209E1B00510693 /* Build configuration list for PBXNativeTarget "kasvuUITests" */;
+			buildPhases = (
+				E26974391F209E1B00510693 /* Sources */,
+				E269743A1F209E1B00510693 /* Frameworks */,
+				E269743B1F209E1B00510693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E269743F1F209E1B00510693 /* PBXTargetDependency */,
+			);
+			name = kasvuUITests;
+			productName = kasvuUITests;
+			productReference = E269743D1F209E1B00510693 /* kasvuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26974131F209E1B00510693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Thought Loops";
+				TargetAttributes = {
+					E269741A1F209E1B00510693 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LA8L85WT95;
+						ProvisioningStyle = Automatic;
+					};
+					E26974311F209E1B00510693 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LA8L85WT95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E269741A1F209E1B00510693;
+					};
+					E269743C1F209E1B00510693 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = LA8L85WT95;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E269741A1F209E1B00510693;
+					};
+				};
+			};
+			buildConfigurationList = E26974161F209E1B00510693 /* Build configuration list for PBXProject "kasvu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E26974121F209E1B00510693;
+			productRefGroup = E269741C1F209E1B00510693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E269741A1F209E1B00510693 /* kasvu */,
+				E26974311F209E1B00510693 /* kasvuTests */,
+				E269743C1F209E1B00510693 /* kasvuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26974191F209E1B00510693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E269742C1F209E1B00510693 /* LaunchScreen.storyboard in Resources */,
+				E26974291F209E1B00510693 /* Assets.xcassets in Resources */,
+				E26974241F209E1B00510693 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26974301F209E1B00510693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E269743B1F209E1B00510693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26974171F209E1B00510693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26974211F209E1B00510693 /* ViewController.swift in Sources */,
+				E26974271F209E1B00510693 /* kasvu.xcdatamodeld in Sources */,
+				E269741F1F209E1B00510693 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E269742E1F209E1B00510693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26974371F209E1B00510693 /* kasvuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26974391F209E1B00510693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26974421F209E1B00510693 /* kasvuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26974341F209E1B00510693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E269741A1F209E1B00510693 /* kasvu */;
+			targetProxy = E26974331F209E1B00510693 /* PBXContainerItemProxy */;
+		};
+		E269743F1F209E1B00510693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E269741A1F209E1B00510693 /* kasvu */;
+			targetProxy = E269743E1F209E1B00510693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E26974221F209E1B00510693 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26974231F209E1B00510693 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E269742A1F209E1B00510693 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E269742B1F209E1B00510693 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E26974441F209E1B00510693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E26974451F209E1B00510693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E26974471F209E1B00510693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LA8L85WT95;
+				INFOPLIST_FILE = kasvu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtloops.kasvu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E26974481F209E1B00510693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LA8L85WT95;
+				INFOPLIST_FILE = kasvu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtloops.kasvu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E269744A1F209E1B00510693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LA8L85WT95;
+				INFOPLIST_FILE = kasvuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtloops.kasvuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kasvu.app/kasvu";
+			};
+			name = Debug;
+		};
+		E269744B1F209E1B00510693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LA8L85WT95;
+				INFOPLIST_FILE = kasvuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtloops.kasvuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kasvu.app/kasvu";
+			};
+			name = Release;
+		};
+		E269744D1F209E1B00510693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LA8L85WT95;
+				INFOPLIST_FILE = kasvuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtloops.kasvuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kasvu;
+			};
+			name = Debug;
+		};
+		E269744E1F209E1B00510693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LA8L85WT95;
+				INFOPLIST_FILE = kasvuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtloops.kasvuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kasvu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26974161F209E1B00510693 /* Build configuration list for PBXProject "kasvu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26974441F209E1B00510693 /* Debug */,
+				E26974451F209E1B00510693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26974461F209E1B00510693 /* Build configuration list for PBXNativeTarget "kasvu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26974471F209E1B00510693 /* Debug */,
+				E26974481F209E1B00510693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E26974491F209E1B00510693 /* Build configuration list for PBXNativeTarget "kasvuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E269744A1F209E1B00510693 /* Debug */,
+				E269744B1F209E1B00510693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E269744C1F209E1B00510693 /* Build configuration list for PBXNativeTarget "kasvuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E269744D1F209E1B00510693 /* Debug */,
+				E269744E1F209E1B00510693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E26974251F209E1B00510693 /* kasvu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E26974261F209E1B00510693 /* kasvu.xcdatamodel */,
+			);
+			currentVersion = E26974261F209E1B00510693 /* kasvu.xcdatamodel */;
+			path = kasvu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E26974131F209E1B00510693 /* Project object */;
+}
